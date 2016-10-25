@@ -1,0 +1,48 @@
+body {
+
+  font-family: inherit;
+  font-style: inherit;
+}
+
+#root {
+  font-family: sans-serif;
+  font-style: bold;
+}
+
+.piano {
+ display: flex;
+ justify-content: center;
+ margin: 200px auto 50px auto;
+ font-size: 36px;
+
+}
+
+.tile {
+  width: 80px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 0 10px 2px grey;
+  text-align: center;
+}
+
+.pressed {
+  background-color: gray;
+}
+
+.released {
+  background-color: white;
+}
+
+.recorder {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.recorder-title {
+  font-size: 40px
+}
+
+.jukebox {
+  text-align: center;
+}
